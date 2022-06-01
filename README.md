@@ -50,14 +50,14 @@ Of course, you might not be sure what you should fill in for this person, this i
 2) [X] Name of HTML : Snehal Cetan
 3) [X] making a heading with picture
 4) needed elements:
-    - [x] it's responsive
+    - [] it's responsive
     - [x] it has a title
     - [x] it has a favicon
     - [x] their favourite colour
     - [x] their spiritual animal
     - [x] their favourite sport
     - [x] their favourite fictional character
-    - [] their favourite celebrity
+    - [x] their favourite celebrity
     - [x] their picture (if you want to joke, be sure your partner is okay with it)
     - [x] their name as a big header
     - [x] 3 words describing this person
