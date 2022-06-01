@@ -61,11 +61,12 @@ Of course, you might not be sure what you should fill in for this person, this i
     - [x] their picture (if you want to joke, be sure your partner is okay with it)
     - [x] their name as a big header
     - [x] 3 words describing this person
-    - [] a challenge box
+    - [X] a challenge box
         - make a seperate section where your partner can unleash their creativity
         - challenge them to do something special
         - you can leave it empty or provide some html / img / css to help them out
-
+        NOT EASY TO FIND AN EXCERCISE
+        - 
 ## Nice-to-have features
 - As many fun facts you can think of!
 - SEO is good!
