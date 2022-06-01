@@ -1,14 +1,16 @@
-body {
-  background-color: linen;
+.text {
+  font-size: 40px;
 }
 
 .heading {
   margin-bottom: 100px;
+  background-color: sandybrown;
+  height: 350px;
 }
 
 h1 {
   text-align: center;
-  color: rebeccapurple;
+  color: purple;
   font-size: 80px;
 }
 
@@ -20,6 +22,21 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#spirAn {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 15px;
+  height: 200px;
+}
+
+.ficChar {
+  display: flex;
+}
+
+.info {
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
