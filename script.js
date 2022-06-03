@@ -5,27 +5,50 @@
 (function() {
 /**
  * Page Design
- 
-let main = document.querySelector(".main");
-main.classList.add("container");
-let heading = document.querySelector(".heading");
-heading.classList.add("row", "p-4", "p-md-5", "mb-4", "mt-2", "text-white", "rounded", "bg-dark");
-
 */
+let under  = document.querySelector(".under");
+let info = document.querySelector(".info");
+let favourites = document.querySelector(".favourites");
+under.setAttribute("style","display: flex;flex-wrap: wrap;justify-content: space-between;");
+info.setAttribute("style","display: flex;flex-wrap: wrap;justify-content: space-between;flex-direction:unset; padding:0 20px;");
+/*
+under.setAttribute("style","display: flex;flex-wrap: wrap;justify-content: space-between;");
+info.setAttribute("Style","width: 48%;height: 100px;margin-bottom: 2%;");*/
+
+let images = document.getElementsByTagName("img");
+images[0].setAttribute("style","height:250px");
+
+images[2].setAttribute("style","margin:10px; position:relative; top:80px;display:inline-block;");
+
+images[3].setAttribute("style","margin:10px; position:relative; top:80px;display:inline-block;");
+
+images[4].src='./images/deep.jpg';
+images[4].setAttribute("style","margin:10px; position:relative; top:80px; display:inline-block;");
+
+let names = document.getElementsByClassName("text");
+
+names[0].innerHTML = `<h3>Favourite Sport</h3><h4>Yoga</h4>`;
+names[1].innerHTML = `<h3>Fictional Character</h3><h4>Donald Duck</h4>`;
+names[2].innerHTML = "<h3>Favourite Celebrity </h3><h4> Deepika Padukon</h4>";
 
 
-
-
+//names[2].getElementsByTagName("h4").style.color = "grey";
 document.querySelector("#headingPicture img").style.height = "250px";
 document.querySelector(".heading").style.height = "270px";
 document.querySelector(".heading").style.marginBottom = "0px";
 
-let mainDiv = document.querySelector('.info');
-  let  childDiv = mainDiv.getElementsByTagName('div')[2];
-   let requiredDiv = childDiv.getElementsByTagName('div')[0];
-    requiredDiv.innerHtml = "Favourite Celebrity : Deepika Padukon";
 
 
+let infoDiv = document.createElement("div");
+  infoDiv.innerHTML=`<div class="ficChar favourites">
+  <div class="text textFig"><h3>Favourite Color</h3> <h4> Turquoise</h4> </div>
+  <img src="./images/turquoise.png" height="160px"  alt="turquoise color">
+</div>`;
+
+
+info.appendChild(infoDiv);
+
+images[5].setAttribute("style","margin:10px; position:relative; top:80px; display:inline-block;");
 
 
 //document.querySelector(".heading").innerHTML = `
