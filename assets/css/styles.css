@@ -1,0 +1,124 @@
+.text {
+  font-size: 40px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  background-color: sandybrown;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  font-size: 80px;
+}
+
+#picture {
+  max-width: 100%;
+  height: 400px;
+  border-radius: 50%;
+  alignment: center;
+}
+
+#spirAn {
+  position: flex;
+  margin-top: 60px;
+  height: 200px;
+}
+
+.ficChar {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.favourites {
+  margin-bottom: 50px;
+}
+
+.under {
+  background-color: linen;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.textFig {
+  margin-top: 50px;
+}
+
+#ricky {
+  height: 150px;
+  width: 100px;
+}
+
+.challengeBox {
+  border: solid 5px darkcyan;
+  margin-top: 100px;
+  width: 100%;
+  height: 30%;
+}
+
+#donald {
+  display: inline-block;
+  position: absolute;
+}
+
+#table {
+  display: inline-block;
+  position: relative;
+  left: 35%;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  border: 1px solid white;
+  background: url("./images/p.png");
+  cursor: pointer;
+}
+
+.tile1 {
+  background-position: left top;
+}
+
+.tile2 {
+  background-position: center top;
+}
+
+.tile3 {
+  background-position: right top;
+}
+
+.tile4 {
+  background-position: left center;
+}
+
+.tile5 {
+  background-position: center center;
+}
+
+.tile6 {
+  background-position: right center;
+}
+
+.tile7 {
+  background-position: left bottom;
+}
+
+.tile8 {
+  background-position: center bottom;
+}
+
+.tile9 {
+  background: white;
+  cursor: default;
+}
+/*# sourceMappingURL=styles.css.map */
